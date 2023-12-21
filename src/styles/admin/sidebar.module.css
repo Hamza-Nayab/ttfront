@@ -1,0 +1,40 @@
+/* sidebar.module.css */
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden; /* Hide overflow content */
+}
+
+.button-container {
+  height: 10vh;
+  width: 80%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.button {
+  color: #ffde59;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Apply different styles for unvisited and visited links */
+.button a:link,
+.button a:visited {
+  color: #ffde59; /* Set link color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Change color when hovering over the link */
+.button a:hover {
+  color: white; /* Change link color on hover */
+}
+
+/* Change color when the link is clicked */
+.button a:active {
+  color: white; /* Change link color on active (click) */
+}

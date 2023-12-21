@@ -1,0 +1,70 @@
+/* about right */
+
+.card {
+  background: black;
+}
+
+.card-body {
+  font-weight: bolder;
+  color: white;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card-img-top {
+  height: 45vh;
+  border-radius: 15px;
+}
+
+/* caro */
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.carouselImg {
+  height: 90vh;
+  width: 100%;
+}
+
+/* menu */
+.menu-img {
+  border-radius: 0;
+}
+
+.menu-card-title {
+  color: black;
+}
+
+/* NAVbar */
+.navbar {
+  background-color: #FFDE59;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.logo {
+  height: 45px;
+}
+
+.nav-item .nav-link {
+  color: white;
+}
+
+#menu {
+  display: g;
+}
+
+link{
+  text-decoration: none;
+}

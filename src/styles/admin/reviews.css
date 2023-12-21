@@ -1,0 +1,60 @@
+/* CSS for Reviews component */
+
+/* Container */
+.reviews-container {
+    margin: 20px;
+  }
+  
+  /* Table */
+  .reviews-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table Header */
+  .reviews-table th,
+  .reviews-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .reviews-table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Image Container */
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .review-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Action Buttons */
+  .action-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design - Adjust table layout for smaller screens */
+  @media screen and (max-width: 768px) {
+    .reviews-table {
+      overflow-x: auto;
+    }
+  }
+  
